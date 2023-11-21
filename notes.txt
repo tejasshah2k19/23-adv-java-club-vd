@@ -1,0 +1,128 @@
+Signup.html
+			Signup 
+	FirstName :  [           ]
+	Email :  	 [           ]
+	Password :   [           ]
+					[submit] 
+
+Login.html
+		Login
+	Email :  	 [           ]
+	Password :   [           ]
+					[submit] 
+ 
+ index.html -> 
+ 	Signup 
+ 	Login 
+ 	
+---------------------------------------------
+					Servlet 
+
+					HttpServlet 
+
+http
+hyper text transfer protocol ->   set of rules
+
+client -> request ---> server -> response 
+ 
+client -> request ---> server ---> response 
+
+
+www.facebook.com 
+www.zoom.in 
+www.flipkart.com 
+
+www.silksaree.com 
+
+browser 
+
+
+zoom app 
+facebook app 
+flipkart app 
+
+desktop 
+mobile app 
+
+
+
+
+
+
+
+facebook.com -->  
+				Login.html -->
+						email
+						password 
+							submit 
+				request {email,password } --> server --> process -> response  
+
+
+http://localhost:9999/web/Login.html 
+
+		email 
+		password
+			submit 
+		request --> server --> Servlet -> process 
+----------------------------------------
+configuration -> xml -> web.xml 
+deployment descriptor -> dd 
+
+2.5 
+
+webapp -> WEB-INF -> web.xml 
+
+---------------------------------------
+Signup.html -> fn ln em pwd -submit -> request ->server 
+	
+MVC design pattern ->
+
+model - data { bean, dao} 
+
+view -{webapp} input output -- html / jsp{html+java}
+
+controller -- logic -- servlet 
+
+---------------------------------------
+what is a servlet ?
+	it's a java class that handles the request and 
+	give response 
+	
+how to create servlet ?	
+	1) java class extends HttpServlet 
+	2) public void service(HttpServletRequest request,HttpServletResponse response) 
+	3) servlet map -> url -> mapping 
+	
+lib -> jar > project 
+		1) tomcat 
+		2) google 
+
+we need to add{link} servlet-api.jar file in our project 
+how to link servlet in project? 
+
+
+project->right click-> properties -> java buil path->
+libraries tab  -> add external jar -> browse-> tomcat/lib -> 
+servlet-api.jar -> open -> order and export tab -> select all -> 
+apply and close 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
