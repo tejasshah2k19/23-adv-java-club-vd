@@ -106,9 +106,81 @@ libraries tab  -> add external jar -> browse-> tomcat/lib ->
 servlet-api.jar -> open -> order and export tab -> select all -> 
 apply and close 
 
+--------------------------------------------------
+validation - red color 
+
+--------------------------------------------
+advjava - jee - technology 
+		JSP -> java server pages / java servlet pages 
+		jsp -> HTML + JAVA
+		
+		file->new->jsp 
+		
+		
+		default -> HTML
+		
+	 it looks like an html page ->
+	 
+	 do we need first line of jsp ? 
+	 important ? 
+	 
+	 if you remove then that first line added by server 
+	 
+	 why we add ? -> we will modify configuration 
+	 						behaviour of jsp 
+	 						  
+-------------------------------------------------
+how we can write java ? 
+
+1) scriptlet    <%     %>  ==> java logic 
+2) expression   <%=    %>  ==> print on jsp {java} 
+3) declaration  <%!    %>
+
+
+any java logic -> using scriptlet 
+int a; 
+int b;
+int c = a+b; 
+
+<%=c%>
+
+
+Can we write expression inside the scriplet? No 
+<%
+	java 
+	<%= %> --> error 
+%> 
 
 
 
+Print Multiplication table of 10 on jsp 
+
+
+1
+12
+123
+1234
+12345
+
+-----------------------
+
+
+Registration.jsp 
+	FirstName
+	Email
+	Password 
+				[submit] 
+				
+RegistrationServlet 
+	read data 
+	validation {required data} 
+	
+	error->true -> goback to Registration.jsp 
+						print error on Registrationj.jsp 
+	error->false-> goahead to Home.jsp 
+	
+	navigation ?
+------------------------------------
 
 
 
