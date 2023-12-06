@@ -24,14 +24,17 @@ public class RegistrationServlet extends HttpServlet {
 		boolean isError = false; // no error 
 		if(firstName == null || firstName.trim().length() == 0 ) {
 			isError = true; 
+			request.setAttribute("firstNameError","Please Enter FirstName");
 		}
 		
 		if(email == null || email.trim().length() == 0 ) {
 			isError = true; 
+			request.setAttribute("emailError","Please Enter Email"); 
 		}
 		
 		if(password == null || password.trim().length() == 0) {
 			isError = true; 
+			request.setAttribute("passwordError","Please Enter Password"); 
 		}
 		
 		if(isError == true) {

@@ -179,8 +179,18 @@ RegistrationServlet
 						print error on Registrationj.jsp 
 	error->false-> goahead to Home.jsp 
 	
-	navigation ?
+	navigation ? RD 
 ------------------------------------
+
+how to send data from servlet to jsp ? 
+request.setAttribute("firstNameError","Please Enter FirstName");
+
+
+how to print data on jsp which was sent by servlet? 
+EL - expression language - ${} 
+${}
+
+${firstNameError} 
 
 
 
