@@ -9,10 +9,10 @@
 
 
 <form action="RegistrationServlet" method="post">
-	FirstName : <input type="text"  name="firstName" />
+	FirstName : <input type="text"  name="firstName" value="${firstNameValue}" />
 		<font color="red">${firstNameError}</font>
 	 <Br><br>  
-	Email :   <input type="text" name="email" />
+	Email :   <input type="text" name="email" value="${emailValue}" />
 	<font color="red">${emailError}</font>
 	<br><br> 
 	Password :  <input type="password"  name="password"/>

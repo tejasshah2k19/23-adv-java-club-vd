@@ -192,16 +192,37 @@ ${}
 
 ${firstNameError} 
 
+-------------------------------------------------
+
+
+input --> process --> output 
+jsp   --> servlet --> jsp 
+
+
+Signup.jsp -> SignupServlet -> Signup.jps/Home.jsp 
+500 users -> 150 proper data -> 350 reject
+
+
+500 inquiry -> 150 BCA/ENG CE -> 350 Mcom -> 350 Reject 
+
+
+500 inq -> PA -> NonIt -> reject -> 150 -> dhiraj sir 
+
+filter -> pre process   
 
 
 
+jsp   --> filter-> servlet --> jsp 
+
+*) data - miss -> proper -> validation 
+*) icici -> login -> location pakistan -> 
+*) whatsapp -> image50V ->25mbV --> server:25-->D25mb 
 
 
-
-
-
-
-
+steps to create Filter:- 
+		1) class implements Filter 
+		2) doFilter** , init , destroy 
+		3) @WebFilter 
 
 
 
