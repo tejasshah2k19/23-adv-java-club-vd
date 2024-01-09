@@ -7,9 +7,9 @@
 </head>
 <body>
 
-	<form action="NameServlet" method="post">
+	<form action="ListNameServlet" method="post">
 		UserName : <input type="text" name="userName"/>${nameError}<br><br>
-		<input type="submit" value="Convert"/> 
+		<input type="submit" value="Store"/> 
 	</form>
 
 </body>

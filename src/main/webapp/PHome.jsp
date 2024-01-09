@@ -6,11 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-	<form action="NameServlet" method="post">
-		UserName : <input type="text" name="userName"/>${nameError}<br><br>
-		<input type="submit" value="Convert"/> 
-	</form>
+<h2>Home</h2>
 
 </body>
 </html>

@@ -225,7 +225,97 @@ steps to create Filter:-
 		3) @WebFilter 
 
 
+---------------------------------------------------
 
+ArrayList -> dynamically 
+				add::grow -> allocation 
+				remove::shrink -> deAllocation 
+				
+			arrayList -> 10 items --> 
+				you can access items via index 
+				
+	ArrayList is a class -> to use this we have to create 
+							 instance/object 
+							 				
+			int a[] = new int[10]; 
+			ArrayList<Integer> list = new ArrayList<Integer>(); 
+		
+	what data type we can use in array list ? 
+	any data type of java like 
+	
+ArrayList =>	Integer,Byte,Short,Long,Character,Float,Double,Boolean {non-primitive} 
+array =>		int,byte,short,long,char,float,double,boolean {primitive} 		
+
+
+------------------------------------------------------			
+MVC -> model view controller 
+	
+1000 movies -> OMG2 
+	
+		Movies -> 
+		HollyWood :700
+			hindi eng
+			500   200  
+		BollyWood :300
+			south:100
+			urbanGuj:30
+			bolly:170  
+		
+Model -> bean , dao 
+view  -> html/jsp/image/js/css/audio/video -> webapp 
+controller	-> logic -> servlet 
+----------------------------------------------------------
+ServletLifeCycle -> 
+	
+
+1 user ==> Login.jsp{email,pwd} submit => LoginServlet 
+2 user --> Login.jsp{email,pwd} submit => LoginServlet 
+
+
+500 user -> Login.jsp ->LoginServlet -> memory? 
+
+load ->allocation -> object -> 
+
+1st request -->server -> LoginServlet memory load? No  
+2nd request --> server -> LoginServlet ? yes -> reuse 
+	
+	1) load class 
+	2) create instance 
+	3) init()
+	4) service()***  
+	5) destroy() -->server shutdown 
+	
+we need database for permanent storage-> 
+ 
+how many times init method call ? 
+1 -- when servlet hit 1st time { on first request } 
+
+how many times service method will call ?
+n time { depends on request } 
+
+how many times destroy method will call ? 
+1 time -- when we shutdown server 
+
+--------------------------------------------------
+
+bean -> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+							 		
+							 			
+		
 
 
  
