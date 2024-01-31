@@ -298,7 +298,82 @@ how many times destroy method will call ?
 
 --------------------------------------------------
 
-bean -> 
+url -> 
+userName ->
+password -> 
+
+JAVA == MYSQL  { driver }  
+
+
+
+march - 15 -> adv 
+15-30 1 project 
+
+april -> 
+	spring 
+may ->
+	web 
+june ->
+	boot
+july -> security , microservice 
+	boot 
+aug
+sep 
+	boot hibernate jpa 
+	
+ 
+---------------------------------------------------------------------------------
+storage -> 
+	to store data 
+	
+
+
+
+Login -> Home ->
+				welcome, Tejas 
+				Good Noon , Tejas
+				
+				otp 
+				password 
+				secret-key 
+				
+
+	1) cookie - client -- browser
+	2) session - server -- memory -- secure 
+	
+
+-> install editThisCookie extension from chrome webstore 
+
+	InputCookie.jsp 
+		Enter Name  [      ]
+			
+			[AddCookie]
+			
+	AddCookieServlet 
+		name = read name 
+		cookie create -> name
+		set client browser ->
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
