@@ -14,4 +14,14 @@
     <servlet-name>AddCookieServlet</servlet-name>
     <url-pattern>/AddCookieServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddSessionServlet</display-name>
+    <servlet-name>AddSessionServlet</servlet-name>
+    <servlet-class>com.controller.AddSessionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddSessionServlet</servlet-name>
+    <url-pattern>/AddSessionServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
