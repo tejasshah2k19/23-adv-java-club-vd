@@ -359,6 +359,13 @@ Login -> Home ->
 -----------------------------------------------------------
 
 
+why we need to remove session and their data ? 
+session is created inside server's memory. 
+
+
+how we can destroy session ? 
+	session.invalidate(); 
+
 
 
 

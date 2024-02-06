@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-Name => ${name}
+Name => ${name}<br><br>
+
+<a href="LogoutServlet">Logout</a>
 </body>
 </html>
